@@ -4,7 +4,7 @@
   <img width=75% src="https://github.com/themichaelmort/style_transfer/blob/main/style_transfer.gif" alt="Time-lapse of style transfer"> 
 </p>
 <p align="center">
-  Time lapse of an photograph of a pumpkin as the style of Van Gogh's Starry Night is transferred.
+  Time lapse of a photograph of a pumpkin as the style of Van Gogh's Starry Night is transferred.
 </p>
 
 <h1>Style Transfer</h1>
@@ -18,9 +18,9 @@
 <ul>
   <li>Models - Style transfer uses two models, one for content and one for style. In this project, both models were pretrained VGG-16 model from <a href="https://arxiv.org/abs/1409.1556">"Very Deep Convolutional Networks for Large-Scale Image Recognition"</a></li> as implemented and stored in PyTorch. The models were set in inference mode.
   <li>Optimizer - Adam, as implemented in PyTorch</li>
-  <li>Loss function - The loss function consists of two parts: 1.) Content loss - which tries to minize the difference between the generated image and the original image (thus encouraging the algorithm to preserve the content), and 2.) Style loss - which tries to minimize the difference between the style of the generated image and the style of the style image. These two loss values are weighted against each other. See <a href="https://arxiv.org/pdf/1508.06576.pdf">Gatys et al.</a> for more details.</li>
+  <li>Loss function - The loss function consists of two parts: 1.) Content loss - which tries to minimize the difference between the generated image and the original image (thus encouraging the algorithm to preserve the content), and 2.) Style loss - which tries to minimize the difference between the style of the generated image and the style of the style image. These two loss values are weighted against each other. See <a href="https://arxiv.org/pdf/1508.06576.pdf">Gatys et al.</a> for more details.</li>
     <ul>
-      <li>Note: The script style_transfer.py was drafted in Google colab. If it is deployed elsewhere an different image loading API may be necessary to load content and style images.</li>
+      <li>Note: The script style_transfer.py was drafted in Google Colab. If it is deployed elsewhere an different image loading API may be necessary to load content and style images.</li>
     </ul>
 </ul>
 
